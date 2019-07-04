@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'TheSansPlain';
+    src: url('fonts/TheSansPlain.eot');
+    src: url('fonts/TheSansPlain.eot') format('embedded-opentype'),
+         url('fonts/TheSansPlain.woff2') format('woff2'),
+         url('fonts/TheSansPlain.woff') format('woff'),
+         url('fonts/TheSansPlain.ttf') format('truetype'),
+         url('fonts/TheSansPlain.svg#TheSansPlain') format('svg');
+}

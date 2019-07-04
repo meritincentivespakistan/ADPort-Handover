@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'TheSansBold';
+    src: url('fonts/TheSansBold.eot');
+    src: url('fonts/TheSansBold.eot') format('embedded-opentype'),
+         url('fonts/TheSansBold.woff2') format('woff2'),
+         url('fonts/TheSansBold.woff') format('woff'),
+         url('fonts/TheSansBold.ttf') format('truetype'),
+         url('fonts/TheSansBold.svg#TheSansBold') format('svg');
+}

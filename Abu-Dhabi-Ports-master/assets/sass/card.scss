@@ -1,0 +1,202 @@
+.card {
+    border: 0px;
+    border-#{$left}: 5px solid $card-border;
+    /* &:hover {
+        @include boxShadow(box-shadow, 0 0 5px $greyColor, webkit o);
+    } */
+    .btn-dimmed {
+        background-color: #e0e0e0;
+    }
+    .card_name {
+        font-size: $font-20 - 4;
+        font-weight: $fontNormal;
+        a {
+            color: $mainColor;
+        }
+    }
+    .headline {
+        @media (max-width: $xs-screen) {
+            font-size: 18px !important;
+        }
+    }
+    .card_title, .card_country {
+        font-size: $font-20 - 8;
+        font-weight: $fontNormal;
+    }
+    .card_img {
+        width: 100px;
+        height: 100px;
+        @media (max-width: $md-screen) {
+            width: 70px;
+            height: 70px;
+        }
+        @media (max-width: $xs-screen) {
+            width: 70px;
+            height: 70px;
+        }
+        @media (max-width: 450px) {
+            width: 40px;
+            height: 40px;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        @include borderRadius(border-radius,50%, webkit moz o)
+    }
+    .card_stats {
+        li {
+            display: inline-block;
+            margin: 0 5px;
+            i {
+                color: $mainColor;
+            }
+        }
+        color: #9e9e9e;
+    }
+    .card_statistics {
+        li {
+            i {
+                margin-right: 5px;
+                font-size: $font-20 -8;
+            }
+        }
+    }
+    .card_tags {
+        li:first-of-type {
+            background-color: $white;
+        }
+        li {
+            font-size: $font-20 - 6;
+            display: inline-block;
+            margin-right: 5px;
+            background: #e0e0e0;
+            padding: 5px 8px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        @media (max-width: $xs-screen) {
+            display: none;
+        }
+    }
+    .card_share {
+        position: relative;
+        .card_share_btn {
+            color: $mainColor;
+        }
+        .card_share_links {
+            margin-bottom: 0;
+            position: absolute;
+            background: $white;
+            padding: 5px;
+            list-style: none;
+            width: 110px;
+            right: 17%;
+            bottom: 100%;
+            border-radius: 5px;
+            z-index: 99;
+            display: none;
+            @include boxShadow(box-shadow, 0 0 5px $greyColor, webkit o);
+            li {
+                display: inline-block;
+                padding: 0 3px;
+            }
+        }
+        &:hover {
+            .card_share_links {
+                display: block;
+            }
+        }
+        .action_btn {
+            &:after {
+                display: none;
+            }
+        }
+    }
+    .card_status {
+        font-size: $font-20 - 10;
+    }
+}
+h3 {
+    @media (max-width: $xs-screen) {
+        font-size: 22px;
+    }
+}
+.hidden-small {
+    @media (max-width: $xs-screen) {
+        display: none;
+    }
+}
+.card_flex {    
+    .card_btn {
+        display: none;
+    }
+    &.xs6, &.md6 {
+        .card_img {
+            width: 60px;
+            height: 60px;
+            margin-left: 20px;
+            @media (max-width: 450px) {
+                width: 40px;
+                height: 40px;
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+        }
+        .card_name {
+            font-size: $font-20 - 6;
+            
+        }
+        .card_tags {
+            display: none;
+        }
+        @media (max-width: $xs-screen) {
+            .card_tags {
+                display: none;
+            }
+        }
+        .card_share {
+            // position: absolute;
+            // float: right;
+            // top: 2px;
+            // right: 10px;
+            .card_share_btn {
+                font-size: $font-20 - 8;
+            }
+        }
+        .edit_pro_btn {
+            height: 30px;
+            width: 70px;
+            font-size: 12px;
+        }
+        .followActions {
+            .v-menu__activator * {
+                padding: 1px;
+                height: 30px;
+                line-height: 26px;
+            }
+        }
+    }
+    .small_icons_hover {
+        color: #9e9e9e;
+        cursor: default;
+        &:hover {
+            color: #053a6e;
+            opacity: 0.8;
+        }
+        .small_icons {
+            color: #053a6e;
+        }
+    }
+    .bg_light_green {
+        background-color: #6ab819;
+        cursor: default;
+    }
+}
+
+.edit_pro_btn {
+    border-radius: 0;
+}
+.followActions {
+    .v-menu__activator * {
+        border-radius: 0
+    }
+}

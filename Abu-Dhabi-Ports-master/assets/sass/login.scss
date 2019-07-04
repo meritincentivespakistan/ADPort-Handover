@@ -1,0 +1,108 @@
+.modal-header {
+  border-bottom: 0px solid #e9ecef;
+}
+.notActive {
+  display: none;
+}
+.active {
+  display: block;
+}
+.loginPop {
+  background-color: #053a6e;
+  color: white;
+}
+#loginForm .v-input--selection-controls {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.loginHeader {
+  background-color: #053a6e;
+}
+.loginTxt {
+  color: #fff;
+  font-size: 20px !important;
+  font-weight: normal !important;
+}
+.closeBG {
+  color: #fff;
+}
+.divider {
+  background: #ddd;
+  height: 1px;
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: 20px auto;
+}
+.divider span {
+  width: 30px;
+  height: 20px;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  margin-left: -10px;
+  top: -12px;
+  text-align: center;
+  color: #999;
+}
+.socialmediaicons2 .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  border-radius: 50%;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.socialmediaicons .fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 6px;
+}
+.socialmediaicons .fa:hover {
+  transform: scale(1.05)
+}
+.socialmediaicons .fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.socialmediaicons .fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.socialmediaicons .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.socialmediaicons .fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.socialAlign {
+  text-align: center;
+}
+.margin {
+  margin: 2%;
+}
+.divider[_ngcontent-c4] {
+  width: 93%;
+}
+.matIconVis {
+  font-size: 130%;
+}
+.modal-content {
+  border-radius: 0.5rem;
+}
+
+#google-signin-button2 {
+    display: inline-block;
+    transform: rotate(0deg) !important;
+    position: absolute;
+    top: -20px;
+    left: 1px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+  }

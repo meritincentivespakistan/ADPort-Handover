@@ -1,0 +1,39 @@
+.main_container {
+  .main_title {
+    color: $mainColor;
+  }
+  .card_flex {
+   // padding: 0 10px;
+    &.xs6, &.md6 {
+        .card_img {
+            margin-top: 20px;
+            margin-left: 20px;
+            width: 50px;
+            height: 50px;
+        }
+        }
+    }
+    
+  .view_type {
+    .typeLink {
+      color: $greyColor;
+      margin: 0 5px;
+      font-size: $font-20;
+      cursor: pointer;
+
+      &.active,
+      &:hover {
+        color: $mainColor;
+      }
+    }
+    .typeLink1 {
+      background-color: #eee;
+      color: $greyColor;
+      &.active,
+      &:hover {
+        color: white;
+        background-color: $mainColor;
+      }
+    }
+  }
+}

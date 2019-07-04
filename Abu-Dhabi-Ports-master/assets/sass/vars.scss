@@ -1,0 +1,57 @@
+$mainColor: #053a6e;
+$mainHoverdColor: darken($mainColor, 10%);
+$lightenColor: lighten($mainColor, 5%);
+$greyColor: #cbcbcb;
+$card-border: #8d44ad;
+$white: #fff;
+$lightGrey: #eee;
+$secGreyColor: #e0e0e0;
+$google: #dd4b39;
+$linkedin: #0077b5;
+$pinterest: #bd081c;
+$active: #6ab819;
+$deactivate: #ede15b;
+$expire: red;
+
+$card-border-blue: #5296c4;
+$card-border-orange: #e67f22;
+$fontNormal: normal;
+$font-20: 20px;
+$left: left;
+$right: right;
+$bold: bold;
+
+.elActive {
+    color: $active;
+}
+.elDeactivate {
+    color: $deactivate;
+}
+.elExpire {
+    color: $expire;
+}
+
+
+// Mixins
+@mixin boxShadow($prop, $value, $prefixes:()) {
+    @each $prefixe in $prefixes {
+        #{'-'+ $prefixe + '-' + $prop}: $value
+    }
+    #{$prop}: $value
+}
+
+@mixin  borderRadius($prop, $value, $prefixes:()) {
+    @each $prefixe in $prefixes {
+        #{'-'+ $prefixe + '-' + $prop}: $value
+    }
+    #{$prop}: $value
+}
+
+// general classes 
+.main_color {
+    color: $mainColor
+}
+
+// Media screens 
+$xs-screen: 767px;
+$md-screen: 980px;

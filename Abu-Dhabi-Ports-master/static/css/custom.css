@@ -1,0 +1,26 @@
+
+#THAT_test_result .details_list_links._not_registered a:not(.test):hover{
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.09);
+}
+#THAT_test_result .details_list_links._not_registered a:not(.test) {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  opacity: 0.6;
+  cursor: default;
+}
+
+#THAT_test_result .details_list_links._not_registered a:not(.test):hover {
+  color: #63656b;
+  transform: none;
+}
+
+#THAT_test_result .details_list_links._not_registered a:not(.test) i {
+  font-size: 18px;
+  margin-left: 10px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+  left: 0;
+  right: auto
+} 
