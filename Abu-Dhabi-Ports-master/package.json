@@ -14,7 +14,7 @@
     "@nuxtjs/axios": "^5.0.0",
     "atob": "^2.1.2",
     "bootstrap": "^4.3.1",
-    "bootstrap-vue": "^1.0.2",
+    "bootstrap-vue": "^2.0.0",
     "btoa": "^1.2.1",
     "express": "^4.15.3",
     "html2canvas": "^1.0.0-alpha.12",
